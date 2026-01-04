@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/Tp2_exercice/Tp2_exercice.egg-info
+writing ../../build/Tp2_exercice/Tp2_exercice.egg-info/PKG-INFO
+writing dependency_links to ../../build/Tp2_exercice/Tp2_exercice.egg-info/dependency_links.txt
+writing entry points to ../../build/Tp2_exercice/Tp2_exercice.egg-info/entry_points.txt
+writing requirements to ../../build/Tp2_exercice/Tp2_exercice.egg-info/requires.txt
+writing top-level names to ../../build/Tp2_exercice/Tp2_exercice.egg-info/top_level.txt
+writing manifest file '../../build/Tp2_exercice/Tp2_exercice.egg-info/SOURCES.txt'
+reading manifest file '../../build/Tp2_exercice/Tp2_exercice.egg-info/SOURCES.txt'
+writing manifest file '../../build/Tp2_exercice/Tp2_exercice.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/samuel/ros2_robot_project/build/Tp2_exercice/build
+creating /home/samuel/ros2_robot_project/build/Tp2_exercice/build/lib
+creating /home/samuel/ros2_robot_project/build/Tp2_exercice/build/lib/Tp2_exercice
+copying Tp2_exercice/__init__.py -> /home/samuel/ros2_robot_project/build/Tp2_exercice/build/lib/Tp2_exercice
+copying Tp2_exercice/multi_turtle_manager.py -> /home/samuel/ros2_robot_project/build/Tp2_exercice/build/lib/Tp2_exercice
+running install
+running install_lib
+creating /home/samuel/ros2_robot_project/install/Tp2_exercice/lib/python3.10/site-packages/Tp2_exercice
+copying /home/samuel/ros2_robot_project/build/Tp2_exercice/build/lib/Tp2_exercice/__init__.py -> /home/samuel/ros2_robot_project/install/Tp2_exercice/lib/python3.10/site-packages/Tp2_exercice
+copying /home/samuel/ros2_robot_project/build/Tp2_exercice/build/lib/Tp2_exercice/multi_turtle_manager.py -> /home/samuel/ros2_robot_project/install/Tp2_exercice/lib/python3.10/site-packages/Tp2_exercice
+byte-compiling /home/samuel/ros2_robot_project/install/Tp2_exercice/lib/python3.10/site-packages/Tp2_exercice/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/samuel/ros2_robot_project/install/Tp2_exercice/lib/python3.10/site-packages/Tp2_exercice/multi_turtle_manager.py to multi_turtle_manager.cpython-310.pyc
+running install_data
+creating /home/samuel/ros2_robot_project/install/Tp2_exercice/share/ament_index
+creating /home/samuel/ros2_robot_project/install/Tp2_exercice/share/ament_index/resource_index
+creating /home/samuel/ros2_robot_project/install/Tp2_exercice/share/ament_index/resource_index/packages
+copying resource/Tp2_exercice -> /home/samuel/ros2_robot_project/install/Tp2_exercice/share/ament_index/resource_index/packages
+copying package.xml -> /home/samuel/ros2_robot_project/install/Tp2_exercice/share/Tp2_exercice
+running install_egg_info
+Copying ../../build/Tp2_exercice/Tp2_exercice.egg-info to /home/samuel/ros2_robot_project/install/Tp2_exercice/lib/python3.10/site-packages/Tp2_exercice-0.0.1-py3.10.egg-info
+running install_scripts
+Installing multi_turtle_manager script to /home/samuel/ros2_robot_project/install/Tp2_exercice/lib/Tp2_exercice
+writing list of installed files to '/home/samuel/ros2_robot_project/build/Tp2_exercice/install.log'
