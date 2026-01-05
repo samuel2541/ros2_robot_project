@@ -1,15 +1,13 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>Tp2_exercice</name>
+  <name>Tp3_exercice1</name>
   <version>0.0.0</version>
-  <description>Multi Turtle Manager</description>
+  <description>TP3 Exercice 1</description>
   <maintainer email="samuel@todo.todo">samuel</maintainer>
   <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
-  <depend>turtlesim</depend>
-  <depend>std_srvs</depend>
+  <depend>fleet_interfaces</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
