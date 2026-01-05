@@ -1,0 +1,15 @@
+# Request
+string robot_name
+float64 max_velocity
+float64 acceleration_limit
+float64 safety_distance
+bool enable_obstacle_avoidance
+bool enable_logging
+---
+# Response
+bool success
+string message
+float64 max_velocity_set
+float64 acceleration_limit_set
+float64 safety_distance_set
+
