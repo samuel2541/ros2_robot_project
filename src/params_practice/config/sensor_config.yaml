@@ -1,0 +1,25 @@
+# sensor_config.yaml
+# Configuration des 5 capteurs
+
+sensor_manager:
+  ros__parameters:
+    sensor_names:
+      - "lidar"
+      - "camera"
+      - "imu"
+      - "gps"
+      - "ultrasonic"
+    
+    sensor_rates:
+      - 10.0    # lidar: 10 Hz
+      - 30.0    # camera: 30 Hz
+      - 100.0   # imu: 100 Hz
+      - 1.0     # gps: 1 Hz
+      - 20.0    # ultrasonic: 20 Hz
+    
+    sensor_enabled:
+      - true    # lidar: ON
+      - true    # camera: ON
+      - true    # imu: ON
+      - true    # gps: ON
+      - false   # ultrasonic: OFF

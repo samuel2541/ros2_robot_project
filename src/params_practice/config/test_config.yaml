@@ -1,0 +1,7 @@
+# test_config.yaml - Configuration test
+basic_param_node:
+  ros__parameters:
+    robot_name: "test_robot"
+    max_speed: 5.0
+    update_rate: 0.5
+    enable_safety: false

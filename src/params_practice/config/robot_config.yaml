@@ -1,0 +1,8 @@
+# robot_config.yaml
+basic_param_node:
+  ros__parameters:
+    robot_name: "configured_robot"
+    max_speed: 3.0
+    update_rate: 5.0
+    enable_safety: true
+    

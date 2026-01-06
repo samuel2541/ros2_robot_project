@@ -1,0 +1,29 @@
+# multi_robot_config.yaml
+# Configuration pour plusieurs robots
+
+# Robot Alpha - Robot rapide (scout)
+robot_alpha:
+  basic_param_node:
+    ros__parameters:
+      robot_name: "alpha"
+      max_speed: 4.0
+      update_rate: 10.0
+      enable_safety: true
+
+# Robot Beta - Robot lent (manipulateur)
+robot_beta:
+  basic_param_node:
+    ros__parameters:
+      robot_name: "beta"
+      max_speed: 1.5
+      update_rate: 5.0
+      enable_safety: true
+
+# Robot Gamma - Robot de test
+robot_gamma:
+  basic_param_node:
+    ros__parameters:
+      robot_name: "gamma"
+      max_speed: 2.5
+      update_rate: 2.0
+      enable_safety: false

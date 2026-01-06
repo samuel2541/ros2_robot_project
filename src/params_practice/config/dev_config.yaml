@@ -1,0 +1,7 @@
+# dev_config.yaml - Configuration développement
+basic_param_node:
+  ros__parameters:
+    robot_name: "dev_robot"
+    max_speed: 1.0
+    update_rate: 10.0
+    enable_safety: true

@@ -1,0 +1,7 @@
+# prod_config.yaml - Configuration production
+basic_param_node:
+  ros__parameters:
+    robot_name: "prod_robot"
+    max_speed: 4.0
+    update_rate: 2.0
+    enable_safety: true
